@@ -1,0 +1,5 @@
+state.json
+mac/state.json
+mac/logs/
+*.tmp
+__pycache__/

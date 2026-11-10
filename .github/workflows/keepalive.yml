@@ -1,0 +1,22 @@
+name: keepalive
+# GitHub pauses scheduled workflows in repos with no activity for 60 days.
+# This makes one tiny commit a month so the 15-minute job never gets paused.
+on:
+  schedule:
+    - cron: "17 3 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          date -u +%Y-%m-%dT%H:%M:%SZ > .keepalive
+          git config user.name "jobwatch-bot"
+          git config user.email "jobwatch-bot@users.noreply.github.com"
+          git add .keepalive
+          git commit -m "keepalive" && git push

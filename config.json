@@ -1,0 +1,26 @@
+{
+  "freelancer": {
+    "enabled": true,
+    "queries": ["flutter", "ios", "swift", "swiftui", "mobile app", "app store", "wordpress", "woocommerce"],
+    "include": ["flutter", "dart", "ios", "iphone", "ipad", "swift", "swiftui", "xcode", "app store", "testflight",
+                "mobile app", "mobile application", "android", "wordpress", "woocommerce", "elementor",
+                "html", "css", "landing page", "تطبيق", "ووردبريس", "فلاتر"],
+    "exclude": ["unity", "game development", "blockchain", "crypto", "trading bot", "mt4", "mt5",
+                "data entry", "logo", "video editing"],
+    "max_bids": 150,
+    "max_age_hours": 24
+  },
+  "mostaql": {
+    "enabled": true,
+    "categories": ["development"],
+    "pages": 2,
+    "include": ["flutter", "فلاتر", "فلتر", "dart", "ios", "ايفون", "آيفون", "أيفون", "swift", "سويفت", "xcode",
+                "app store", "ابل ستور", "آبل ستور", "testflight", "google play", "جوجل بلاي", "تطبيق", "موبايل",
+                "جوال", "اندرويد", "أندرويد", "android", "wordpress", "ووردبريس", "وورد بريس", "woocommerce",
+                "ووكومرس", "elementor", "html", "css", "صفحة هبوط", "landing page", "واجهة امامية", "front-end", "frontend"],
+    "exclude": ["unity", "يونتي", "shopify", "شوبيفاي", "سلة", "زد ", "laravel", "لارافيل", "odoo", "اودو",
+                "مختبر", "مختبرين", "تقييم التطبيق", "تجربة تطبيق", "اختبار اختراق", "أمن سيبراني",
+                "امن سيبراني", "erp", "crm"],
+    "max_bids": 40
+  }
+}
